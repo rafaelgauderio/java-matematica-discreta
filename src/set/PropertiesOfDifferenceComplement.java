@@ -10,7 +10,7 @@ public class PropertiesOfDifferenceComplement {
 				+ "{}c = U\n"
 				+ "A - B = A int Bc\n"
 				+ "Example\n"
-				+ "If A = {1, 2, 3}, and B is {4, 5}, then A - B` is:\nn" + 
+				+ "If A = {1, 2, 3}, and B is {4, 5}, then A - B is:\nn" + 
 				"The difference of the set A with B` (which is A) is the empty set.\n");
 	}
 
