@@ -27,7 +27,9 @@ public class TruthTables {
 				+ "\nNEGATION\n"
 				+ "p ~p\n"
 				+ "T F\n"
-				+ "F T\n"); 
+				+ "F T\n"
+				+ "Example\n"
+				+ "(p v q) ^ ~(p ^ q) = p or q but not both."); 
 		
 	}
 
