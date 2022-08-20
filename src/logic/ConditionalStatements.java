@@ -16,7 +16,8 @@ public class ConditionalStatements {
 				+ "T | F | T\n"
 				+ "F | T | F\n"
 				+ "F | F | T\n"
-				+ "\nif the hypothesis is true and you do not get the conclusion, then you have a broken promisse.\n"
+				+ "\nif the hypothesis is true and you do not get the conclusion (false), then you have a broken promisse.\n"
+				+ "p -> q == ~p v q\n"
 				+ "Mnemônico = Vera Fisher é Falsa\n");
 		
 	}
