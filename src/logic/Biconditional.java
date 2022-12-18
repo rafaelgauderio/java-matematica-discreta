@@ -18,7 +18,7 @@ public class Biconditional {
 				+ "F | T | F\n"
 				+ "F | F | T\n"
 				+ "q <-> q == (p -> q)^(q -> p)\n"
-				+ "Biconditional if the oposite of the XOR.\n");
+				+ "Biconditional if the oposite of the EXCLUSIVE DISJUCTION (OR...OR)A conditional statement and its converse _______ logically equivalent\n");
 
 	}
 
