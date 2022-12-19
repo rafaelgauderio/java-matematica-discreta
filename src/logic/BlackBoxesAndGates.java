@@ -16,6 +16,34 @@ public class BlackBoxesAndGates {
 				+ "\n\tAND gate: is the AND truth table. 2 inputs and 1 output"
 				+ "\n\tOR gate: is the OR truth table. 2 inputs and 1 output"
 				+ "\nTOOL to construct circuits online: LOGIC.LY ");
+		
+		
+		boolean one = true;
+		boolean zero = false;
+		
+		System.out.println("\nExamples of AND gate outputs");
+		System.out.println("false,false: " + andGate(false,false));
+		System.out.println("true,false: " + andGate(true,false));
+		System.out.println("false,true: " + andGate(false,true));
+		System.out.println("true,true: " + andGate(true,true));
+		
+		
+		
+	}
+	
+	public static boolean andGate(boolean input1, boolean input2) {
+		
+		if (input1==true && input2==true) {
+			return true;
+		} else if (input1==false && input2==true) {
+			return false;
+		} else if (input1==true && input2==false) {
+			return false;
+		} else if (input1==false && input2==false) {
+			return false;
+		}
+		return false;
+		
 	}
 
 }
