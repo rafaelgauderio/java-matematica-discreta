@@ -27,6 +27,12 @@ public class BlackBoxesAndGates {
 		System.out.println("false,true: " + andGate(false,true));
 		System.out.println("true,true: " + andGate(true,true));
 		
+		System.out.println("\n\nExamples of OR gate outputs");
+		System.out.println("false,false: " + orGate(false,false));
+		System.out.println("true,false: " + orGate(true,false));
+		System.out.println("false,true: " + orGate(false,true));
+		System.out.println("true,true: " + orGate(true,true));
+		
 		
 		
 	}
@@ -45,5 +51,22 @@ public class BlackBoxesAndGates {
 		return false;
 		
 	}
+	
+public static boolean orGate(boolean input1, boolean input2) {
+		
+		if (input1==true && input2==true) {
+			return true;
+		} else if (input1==false && input2==true) {
+			return true;
+		} else if (input1==true && input2==false) {
+			return true;
+		} else if (input1==false && input2==false) {
+			return false;
+		}
+		return false;
+		
+	}
+	
+	
 
 }
