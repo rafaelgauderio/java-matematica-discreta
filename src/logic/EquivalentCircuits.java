@@ -6,6 +6,7 @@ public class EquivalentCircuits {
 		
 		System.out.println("EQUIVALENT CIRCUITS"
 				+ "\n\tLogical Circuits are EQUIVALENT if and only if, their inputs and the outputs are the same."
+				+ "\n\tCircuits are EQUIVALENT if they have the same truth table."
 				+ "\n\tThese can be use to represent complex circuits by simple circutir that are equivalent.");
 
 	}
